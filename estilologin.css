@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    font-family: "poppins" , sans-serif;
+}
+ body{
+    background-image:url(fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;}
+
+.container{
+    background-color:white;
+    width:550px;
+    padding:1.5rem;
+    margin:300px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(65, 107, 2, 0.685);
+    
+}
+
+form {
+    margin:0 2rem;
+    
+}
+.titulo_registro{
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-align: center;
+   padding:1.5rem ;
+   margin-bottom:0.4rem ;
+
+}
+
+input {
+    color:inherit;
+    width: 100%;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid grey ;
+    padding-left:1.5rem ;
+    font-size:15px ;
+}
+.input-grupo{
+    padding: 1% 0;
+    position: relative;
+    color: black;
+}
+i {
+    position: absolute;
+    color: black;
+}
+
+input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid rgb(21, 22, 21);
+}
+
+input::placeholder {
+    color:transparent;
+}
+
+label{
+    color:rgb(168, 168, 168);
+    position:relative;
+    left:1.2rem;
+    top:-1.3rem;
+    cursor:auto;
+    transition: 0.1s ease all;
+}
+
+input:focus~label,input:not(:placeholder-shown)~label{
+    top:-2em;
+    color:  rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.recuperarContra{
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.recuperarContra a {
+    text-decoration: none;
+    color:green ;
+}
+.recuperarContra a:hover{
+    color: rgb(126, 207, 4);
+    text-decoration: underline;
+}
+
+.botonCrear{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    background-color:rgb(249, 253, 3) ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.9s;
+    
+}
+
+.btn{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    background-color:rgb(255, 230, 8) ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.btn:hover{
+    background: rgba(2, 158, 23, 0.897);
+}

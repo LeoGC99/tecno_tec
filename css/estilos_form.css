@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  body{
+      background-image:url("fondo.jpg");
+  }
+  .title {
+    color: #055c18;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 0%;
+}  
+
+  .form-register {
+   
+      width: 700px;
+      background:#ffffff;
+      padding: 30px;
+      margin: auto;
+      margin-top:50px;
+      border-radius: 5px;
+      font-family:"calibri";
+      color:#000000;
+      box-shadow: 0 0 20px rgb(95, 255, 2);
+      text-align: center;
+  
+  }
+  .form-register h4 {
+      font-size: 22px;
+      margin-bottom:  20px;
+      margin-top: 20px;
+  }
+  
+  .controls {
+      width: 100%;
+      background:#ffffff ;
+      padding: 20px; ;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      border: 1px solid #6dcc00;
+      font-size: 15px;
+      color:rgb(2, 2, 2);
+  
+  
+  }
+  .form-register p {
+      height: 39px;
+      text-align: center;
+      font-size: 18px ;
+      
+  
+  }
+  .form-register a{
+      color:white;
+      text-decoration: none;
+  }
+  .form-register a:hover {
+      color:white;
+      text-decoration:underline;
+  }
+  .form-register .botons{
+      width: 100%;
+      background:#88ff8e;
+      border-radius:20px;
+      padding:12px ;
+      color: rgb(0, 0, 0);
+      margin: 16px 0;
+      font-size: 20px;
+      text-decoration:none;
+  
+  }
+  .barra_nave {
+    display:flex;
+    align-items: center;
+    padding: 35px;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400px;
+    transition: all .3s ease;
+  
+    
+}
+.iconos{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px ;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover{
+    color: green;
+
+}
+p{
+    color:#555;
+
+}
+ 

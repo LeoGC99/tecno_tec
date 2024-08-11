@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family: "Jost", sans-serif;;
+}
+.barra_nave {
+    display:flex;
+    align-items: center;
+    padding: 35px;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400px;
+    transition: all .3s ease;
+  
+    
+}
+.iconos{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px ;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover{
+    color: green;
+
+}
+p{
+    color:#555;
+
+}
+
+.contenedor{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.fila {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 184.5px;
+    
+}
+
+.col-2{
+    flex-basis:50% ;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 90%;
+    padding: 0px 0;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+ 
+}
+
+.col-2 h1 {
+    font-size: 60px;
+    line-height: 70px;
+    margin: 25px 0;
+    
+}
+.iconos i {
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+    color:green;
+    
+
+
+
+}
+.iconos i:hover{
+    transform: scale(1.1);
+}
+
+#menu_icon{
+    font-size: 35px;
+    color: hsl(96, 100%, 39%);
+    z-index: 10001;
+    cursor: pointer;
+}
+
+
+h2{
+    text-align: center;
+    margin: 70px;
+    font-weight: 500;
+    font-weight:bold;
+    color: black;
+    font-size: 40px;
+}
+
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-around;
+    border-left:10px solid rgb(255, 255, 255) ;
+    border-bottom:10px solid rgb(255, 255, 255) ; ;
+
+    
+    
+}
+h6{
+    font-size:20px;
+    color: rgb(93, 104, 78);
+    font-weight: 500;
+}
+    
+p{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 40px;
+}
+ img{
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(7, 233, 37, 0.5);
+ }
+ .text_pie {
+    text-align: center; 
+}
+
+ .text-center{
+    text-align: center ;
+ }
+    
+
+ 
